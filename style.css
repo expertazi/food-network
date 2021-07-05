@@ -1,5 +1,10 @@
 body {
     font-family: 'Montserrat', sans-serif;
+
+}
+
+* {
+    box-sizing: border-box;
 }
 
 /* Frist Section Css Start */
@@ -50,40 +55,104 @@ body {
 }
 
 /* Frist Section Css End */
-.second-section{
+.second-section {
     background-image: url(images/second-section-bag.png);
     background-repeat: no-repeat;
     background-size: 94em;
 }
-.haf-img{
+
+.haf-img {
 
     text-align: center;
     width: 50%;
 }
 
-.haf-img2{
+.haf-img2 {
     float: right;
     width: 50%;
-    margin-top: -55vh;
+
+    margin-top: -60vh;
 }
 
-.heading-h2{
+.heading-h2 {
     font-size:
-    40px;
-line-height:
-    54px;
-font-weight: 700;
+        40px;
+    line-height:
+        54px;
+    font-weight: 700;
 }
-.normal-p2{
+
+.normal-p2 {
     font-size:
-    18px;
-line-height:
-    32px;
-font-weight: 400;
-color: #828282;
-padding-bottom: 1em;
+        18px;
+    line-height:
+        32px;
+    font-weight: 400;
+    color: #828282;
+    padding-bottom: 1em;
 }
-.person-image{
+
+.person-image {
     width: 40%;
+    margin-top: 109px;
 }
+
 /* Second Section End */
+
+.third-h1 {
+    font-size:
+        36px;
+    line-height: 43.88px;
+    font-weight: 700;
+    color: #828282;
+    text-align: center;
+}
+
+.third-p {
+    font-size:
+        18px;
+    line-height: 24.55px;
+    font-weight: 400;
+    color: #252525;
+    text-align: center;
+    margin-bottom: 7vh;
+}
+
+.res-h2 {
+    font-size: 28px;
+    line-height: 40px;
+    font-weight: 800;
+}
+
+.res-p {
+    font-size: 18px;
+    line-height: 32px;
+    font-weight: 400;
+}
+
+.res-img {
+    border-radius: 20px;
+    height: 256px;
+  
+}
+
+.res-div {
+    float: left;
+    width: 24%;
+    background: #FFFFFF;
+    box-shadow: 0px 0px 25px rgba(0, 0, 0, 0.15);
+    border-radius: 30px;
+    margin: 0 15px;
+    padding: 12px;
+}
+
+.main-img:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.main-img {
+    display: flex;
+    justify-content: center;
+}
