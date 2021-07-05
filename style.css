@@ -50,3 +50,40 @@ body {
 }
 
 /* Frist Section Css End */
+.second-section{
+    background-image: url(images/second-section-bag.png);
+    background-repeat: no-repeat;
+    background-size: 94em;
+}
+.haf-img{
+
+    text-align: center;
+    width: 50%;
+}
+
+.haf-img2{
+    float: right;
+    width: 50%;
+    margin-top: -55vh;
+}
+
+.heading-h2{
+    font-size:
+    40px;
+line-height:
+    54px;
+font-weight: 700;
+}
+.normal-p2{
+    font-size:
+    18px;
+line-height:
+    32px;
+font-weight: 400;
+color: #828282;
+padding-bottom: 1em;
+}
+.person-image{
+    width: 40%;
+}
+/* Second Section End */
