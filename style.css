@@ -1,0 +1,52 @@
+body {
+    font-family: 'Montserrat', sans-serif;
+}
+
+/* Frist Section Css Start */
+.container {
+    display: grid;
+    grid-template-columns: auto auto auto;
+}
+
+.spann {
+    color: #FBA24F;
+}
+
+.heading-h1 {
+    font-size:
+        60px;
+    line-height:
+        78px;
+    font-weight: 700;
+}
+
+.normal-p {
+    font-size:
+        20px;
+    line-height:
+        32px;
+    font-weight: 500;
+    color: #828282;
+    padding-bottom: 1em;
+}
+
+.btn {
+    font-size:
+        18px;
+    line-height:
+        23.4px;
+    font-weight: 600;
+    background: linear-gradient(88.33deg, #FBA24F -7.64%, #FF1E1E 145.94%);
+    box-shadow: 0px 2px 30px rgba(252, 143, 73, 0.5);
+    border-radius: 100px;
+    color: #fff;
+    padding: 15px 40px;
+    text-decoration: none;
+}
+
+.frist-col {
+    margin-top: 8em;
+    margin-left: 7em;
+}
+
+/* Frist Section Css End */
