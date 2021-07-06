@@ -1,8 +1,8 @@
 body {
     font-family: 'Montserrat', sans-serif;
     box-sizing: border-box;
-    margin:0;
-    padding:0
+    margin: 0;
+    padding: 0
 }
 
 
@@ -131,35 +131,48 @@ body {
     font-weight: 400;
 }
 
-.res-img {
-    border-radius: 20px;
-    height: 256px;
 
+.parent-div {
+    width: 90%;
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto;
 }
 
-.res-div {
-    float: left;
-    width: 24%;
-    background: #FFFFFF;
+.card {
+    width: 28%;
+    background: #FFF;
     box-shadow: 0px 0px 25px rgba(0, 0, 0, 0.15);
     border-radius: 30px;
-    margin: 0 15px;
-    padding: 12px;
+    padding: 20px;
 }
 
-.main-img:after {
-    content: "";
-    display: table;
-    clear: both;
+.card img {
+    width: 100%;
 }
 
-.main-img {
+/* Third section Css  End  */
+
+.parent-div-four {
+    width: 90%;
     display: flex;
-    justify-content: center;
-
+    justify-content: space-between;
+    margin: 0 auto;
+    background: #FFF;
+    box-shadow: 0px 0px 25px rgba(0, 0, 0, 0.15);
+    border-radius: 30px;
 }
 
-/* Four Section Css Start From Here */
+.card-four {
+    width: 30%;
+    padding: 20px;
+    padding-left: 120px;
+}
+
+.four-sec {
+    margin-top: 20vh;
+    margin-bottom: 20vh;
+}
 
 .four-h2 {
     font-weight: 700;
@@ -172,38 +185,8 @@ body {
     line-height: 26px;
 }
 
-.four-div {
-
-    float: left;
-    width: 30%;
-    padding: 10px;
-    height: 226px;
-    margin-left: 80px;
-}
-
-.four-img:after {
-    content: "";
-    display: table;
-    clear: both;
-}
-
-.four-img {
-    width: 73%;
-    background: #FFF;
-    box-shadow: 0px 0px 25px rgba(0, 0, 0, 0.15);
-    border-radius: 30px;
-    display: flex;
-    justify-content: center;
-    margin-left: 27vh;
-}
-
-.four-section {
-    margin-top: 18vh;
-    margin-bottom: 18vh;
-
-}
-
 /* Four Section Css End From Here  */
+
 
 .foot-h1 {
     font-weight: 800;
@@ -223,7 +206,7 @@ body {
 
 .foot-foot {
     background-color: #0B0D17;
-    padding: 12vh;
+    padding: 10vh;
 }
 
 /* Footer end Here  */
