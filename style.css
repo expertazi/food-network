@@ -187,9 +187,29 @@ body {
 
 /* Four Section Css End From Here  */
 
+.p-div{
+    width: 90%;
+    display: flex;
+    margin: 0 auto;
+}
 
+.six-haf{
+    background: #FFF;
+    box-shadow: 0px 0px 25px rgba(0, 0, 0, 0.15);
+    border-radius: 30px;
+    padding: 40px;
+    margin-left: 8em;
+    margin-top: 8em;
+}
+.six-haf1{
+    margin-left: 8em;
+    margin-bottom: -4px;
+}
+.six-sec{
+    padding-bottom: -20px;
+}
 
-
+/* Six section Css End  */
 .foot-h1 {
     font-weight: 800;
     font-size: 30px;
