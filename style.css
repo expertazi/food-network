@@ -1,11 +1,11 @@
 body {
     font-family: 'Montserrat', sans-serif;
-
-}
-
-* {
     box-sizing: border-box;
+    margin:0;
+    padding:0
 }
+
+
 
 /* Frist Section Css Start */
 .container {
@@ -106,6 +106,7 @@ body {
     font-weight: 700;
     color: #828282;
     text-align: center;
+    margin-top: 12vh;
 }
 
 .third-p {
@@ -133,7 +134,7 @@ body {
 .res-img {
     border-radius: 20px;
     height: 256px;
-  
+
 }
 
 .res-div {
@@ -155,4 +156,74 @@ body {
 .main-img {
     display: flex;
     justify-content: center;
+
 }
+
+/* Four Section Css Start From Here */
+
+.four-h2 {
+    font-weight: 700;
+    font-size: 48px;
+}
+
+.four-p {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+}
+
+.four-div {
+
+    float: left;
+    width: 30%;
+    padding: 10px;
+    height: 226px;
+    margin-left: 80px;
+}
+
+.four-img:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.four-img {
+    width: 73%;
+    background: #FFF;
+    box-shadow: 0px 0px 25px rgba(0, 0, 0, 0.15);
+    border-radius: 30px;
+    display: flex;
+    justify-content: center;
+    margin-left: 27vh;
+}
+
+.four-section {
+    margin-top: 18vh;
+    margin-bottom: 18vh;
+
+}
+
+/* Four Section Css End From Here  */
+
+.foot-h1 {
+    font-weight: 800;
+    font-size: 30px;
+    line-height: 41px;
+    color: #FFFFFF;
+    text-align: center;
+}
+
+.foot-p {
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 26px;
+    color: #FFFFFF;
+    text-align: center;
+}
+
+.foot-foot {
+    background-color: #0B0D17;
+    padding: 12vh;
+}
+
+/* Footer end Here  */
